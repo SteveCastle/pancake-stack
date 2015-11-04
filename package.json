@@ -1,0 +1,27 @@
+{
+  "name": "pancake-stack",
+  "version": "0.0.2",
+  "description": "Real time smooth stack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^3.7.5",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "webpack": "^1.12.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "chai": "^3.4.0",
+    "chai-immutable": "^1.5.1",
+    "gulp-babel": "^5.0.0",
+    "mocha": "^2.3.3"
+  }
+}
