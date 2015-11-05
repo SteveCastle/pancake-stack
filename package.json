@@ -4,6 +4,7 @@
   "description": "Real time smooth stack.",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node src/app/index.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive",
     "test:watch": "npm run test -- --watch"
   },
@@ -14,6 +15,8 @@
     "immutable": "^3.7.5",
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
+    "redux": "^3.0.4",
+    "socket.io": "^1.3.7",
     "webpack": "^1.12.2"
   },
   "devDependencies": {
