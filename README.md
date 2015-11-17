@@ -7,6 +7,9 @@ Docker container for deploying application server.
 ##Data
 PostgreSQL for relational data, and RethinkDB for realtime non critical data.
 
+##Message Queue
+RabitMQ to handle async application actions.
+
 ##Cache
 Redis for caching.
 
