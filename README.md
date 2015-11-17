@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/SteveCastle/pancake-stack.svg?branch=master)](https://travis-ci.org/SteveCastle/pancake-stack)
+
 # pancake-stack
 A tasty full stack reactive application platform for fast, real time applications. Written functionally with Redux to manage state.
 
