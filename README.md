@@ -1,5 +1,5 @@
 # pancake-stack
-A tasty full stack reactive application platform for fast, real time applications.
+A tasty full stack reactive application platform for fast, real time applications. Written functionally with Redux to manage state.
 
 ##Containers
 Docker container for deploying application server.
