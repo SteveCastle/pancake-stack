@@ -24,6 +24,9 @@ RAML for definining application API specs.
 ##Application Server
 Express.js and Socket.io for realtime api.
 
+##Client
+Fast and responsive React application with redux state management.
+
 ##Build Tooling
 Build the front end js app as either a web app or react-native application with gulp.js.  Deploy servers in various configurations
 with ansible.
