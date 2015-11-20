@@ -1,4 +1,4 @@
-import makeStore from './store';
+import makeStore from '../store';
 import startServer from './server';
 import data from '../../mock/entries.json'
 export const store = makeStore();

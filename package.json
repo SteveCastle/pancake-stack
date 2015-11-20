@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.2.18",
     "express": "^4.13.3",
     "history": "^1.13.1",
     "immutable": "^3.7.5",

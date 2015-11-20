@@ -1,7 +1,7 @@
 import {List, Map} from 'immutable';
 import {expect} from 'chai';
 
-import {setEntries, next, vote} from '../src/app/core';
+import {setEntries, next, vote} from '../../src/app/core';
 
 describe('application logic', () => {
 
