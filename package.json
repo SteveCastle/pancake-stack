@@ -6,7 +6,7 @@
   "scripts": {
     "start": "babel-node src/app/index.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive",
-    "test-components": "mocha --compilers js:babel-core/register --require ./test/test_helper.js test/*spec.jsx",
+    "test-components": "mocha --compilers js:babel-core/register --require ./test/test_helper.js test/frontend/components/*spec.jsx",
     "test:watch": "npm run test -- --watch"
   },
   "author": "",
