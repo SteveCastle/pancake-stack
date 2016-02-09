@@ -1,6 +1,6 @@
 hooks:
   pre: npm install
 nodejs:
-  version: '0.00.01'
+  version: '4.3.1'
 tests:
   - npm test
