@@ -2,7 +2,7 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: [
-    'webpack-dev-server/client?http://localhost:8080',
+    'webpack-dev-server/client?http://localhost:80',
     'webpack/hot/only-dev-server',
     './src/frontend/index.jsx'
   ],
